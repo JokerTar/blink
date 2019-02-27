@@ -1,0 +1,6 @@
+<!--components/classic/movie/index.wxml-->
+<view class="movic-container">
+    <image class="image-container" src='{{classic.image}}'/>
+    <image class="tag" src='./images/movie@tag.png'/>
+    <text class="text-container">{{classic.content}}</text>
+</view>

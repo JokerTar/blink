@@ -1,0 +1,4 @@
+<!--pages/classic/classic.wxml-->
+<v-like like="{{classic.like_status}}" count="{{classic.fav_nums}}" bind:like="onLike"></v-like>
+<v-movie classic="{{classic}}"></v-movie>
+<v-navi bind:left="onNext" bind:right="onPrevious" title="{{classic.title}}" isFirst="{{isFirst}}" isLast="{{isLast}}"></v-navi>
